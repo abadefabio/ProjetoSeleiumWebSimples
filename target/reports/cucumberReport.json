@@ -1,0 +1,101 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-05T19:29:04.353Z",
+        "line": 8,
+        "name": "Registra novo usuario com sucesso",
+        "description": "",
+        "id": "cadastro-de-usuario;registra-novo-usuario-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2023003300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que estou na tela de login",
+            "match": {
+              "location": "LoginSteps.que_estou_na_tela_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4389826900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "acesso o cadastro de usuario",
+            "match": {
+              "location": "LoginSteps.acesso_o_cadastro_de_usuario()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1436404400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "eu preencho o formulario de cadastro",
+            "match": {
+              "location": "CadastroSteps.eu_preencho_o_formulario_de_cadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2882309200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clico em registrar",
+            "match": {
+              "location": "CadastroSteps.clico_em_registrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 58642500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "vejo a mensagem de cadastro realizado com sucesso",
+            "match": {
+              "location": "CadastroSteps.vejo_a_mensagem_de_cadastro_realizado_com_sucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cadastro"
+          },
+          {
+            "name": "@cadastro_sucesso"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de usuario",
+    "description": "    Eu como novo usuario quero me cadastrar na aplicacao para fazer compras",
+    "id": "cadastro-de-usuario",
+    "keyword": "Funcionalidade",
+    "uri": "classpath:features/cadastro_usuario.feature",
+    "tags": [
+      {
+        "name": "@cadastro",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    ]
+  }
+]
